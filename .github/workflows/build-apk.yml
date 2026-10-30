@@ -47,5 +47,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pcapdroid-mitm-hebrew-apk
-          path: app/build/outputs/apk/release/*.apk
+          path: app/build/outputs/apk/**/*.apk
           if-no-files-found: error
